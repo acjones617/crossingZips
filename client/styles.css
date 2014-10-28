@@ -1,0 +1,32 @@
+body {
+
+}
+
+#map-canvas {
+  height: 100%;
+  width: 100%
+}
+
+input, button {
+  position: fixed;
+  left: 100px;
+  height: 32px;
+  width: 300px;
+  border: 2px solid blue;
+  box-shadow: 2px 2px 1px #888888;
+  z-index: 100000;
+}
+
+.address1 {
+  top: 30px;
+}
+
+.address2 {
+  top: 60px;
+}
+
+button {
+  top: 90px;
+  background-color: blue;
+  color: white;
+}
